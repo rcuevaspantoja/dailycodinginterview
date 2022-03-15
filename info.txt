@@ -1,0 +1,15 @@
+#09 Prueba de Programación para Entrevistas.
+
+Este Problema fue recientemente preguntado en una Entrevista.
+
+💻Enunciado
+"Dada una lista de palabras, encontrar los pares de índices, 
+tal que al concatenar ambas palabras formen un palindromo."
+
+Dado ["code", "edoc", "da", "d"] , retornar [(0,1), (1,0), (2,3)]
+
+
+Si tienes una solución mejor o ves una mejora posible en mi código 
+serviría mucho si lo comentas. 🤓
+
+#programacion #informatica #entrevista #programadoreschile
