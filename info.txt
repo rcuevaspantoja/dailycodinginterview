@@ -1,6 +1,6 @@
 #09 Prueba de Programación para Entrevistas.
 
-Este Problema fue recientemente preguntado en una Entrevista.
+Este Problema fue recientemente preguntado por Facebook en una Entrevista.
 
 💻Enunciado
 "Dada una lista de palabras, encontrar los pares de índices, 
@@ -13,3 +13,5 @@ Si tienes una solución mejor o ves una mejora posible en mi código
 serviría mucho si lo comentas. 🤓
 
 #programacion #informatica #entrevista #programadoreschile
+
+
