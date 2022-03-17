@@ -21,21 +21,32 @@ const diccionario = {
     ']' : '6'
 }
 
-console.log( string.length )
-console.log( string[1] )
+/* console.log( string.length )
+console.log( string[1] ) */
 
 const Parentesis = ( numeros ) => {
+    let inicio = 0
+    let fin = numeros.length
 
-    console.log(numeros)
+    Buscar( inicio, numeros)
+
+
+    console.log( inicio, fin )
+    console.log( numeros )
 }
 
 //los combierto a numeros
 const Refactorizar = ( string ) => {
 
-    /* console.log( string ) */
+    console.log( string )
     const numeros = string.map( letra => diccionario[letra] );
     /* console.log( numeros ) */
     return numeros
+}
+
+const Buscar = ( posicion, numeros ) => {
+
+    console.log( posicion, numeros)
 }
 
 Parentesis( Refactorizar( string ) );
