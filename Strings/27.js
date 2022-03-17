@@ -28,11 +28,10 @@ const Parentesis = ( numeros ) => {
     let inicio = 0
     let fin = numeros.length
 
-    Buscar( inicio, numeros)
+    console.log( Buscar( 1, numeros) )
 
 
     console.log( inicio, fin )
-    console.log( numeros )
 }
 
 //los combierto a numeros
@@ -47,6 +46,30 @@ const Refactorizar = ( string ) => {
 const Buscar = ( posicion, numeros ) => {
 
     console.log( posicion, numeros)
+
+    if( numeros[posicion] == 5){
+        for( let i = posicion; i < numeros.length; i++){
+            if( numeros[ i ] == 6){
+                return i;
+            }
+        }
+    }
+
+    if( numeros[posicion] == 1){
+        for( let i = posicion; i < numeros.length; i++){
+            if( numeros[ i ] == 2){
+                return i;
+            }
+        }
+    }
+
+    if( numeros[posicion] == 3){
+        for( let i = posicion; i < numeros.length; i++){
+            if( numeros[ i ] == 4){
+                return i;
+            }
+        }
+    }
 }
 
 Parentesis( Refactorizar( string ) );
