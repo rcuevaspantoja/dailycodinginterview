@@ -1,13 +1,13 @@
-#09 Prueba de Programación para Entrevistas.
-
-Este Problema fue recientemente preguntado por Facebook en una Entrevista.
+#11 Prueba de Programación para Entrevistas.
+Este Problema fue recientemente preguntado por #Google en una Entrevista.
 
 💻Enunciado
-"Dada una lista de palabras, encontrar los pares de índices, 
-tal que al concatenar ambas palabras formen un palindromo."
+"Dado un arreglo donde cada numero existe 3 veces dentro del arreglo, excepto por uno
+el cual solo aparece una vez. retoranr el entero no duplicado"
 
-Dado ["code", "edoc", "da", "d"] , retornar [(0,1), (1,0), (2,3)]
+Dado [6 ,1, 3, 3, 3,6, 6] => 1 
 
+Hacer esto en O(N) y O(1) spaces.
 
 Si tienes una solución mejor o ves una mejora posible en mi código 
 serviría mucho si lo comentas. 🤓
