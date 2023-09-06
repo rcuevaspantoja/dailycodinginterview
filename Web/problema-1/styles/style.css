@@ -1,0 +1,43 @@
+#cuerpo-index{
+    margin: 100px 200px 100px 200px;
+    height: 1000px;
+}
+
+/*No funciona esto. why*/
+h1{
+    font-size: 150px;
+}
+
+#tabla{
+    margin-top: 5px;
+    border: solid 2px black;
+}
+
+#filtros{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.col-filtros{
+    width: 25%;
+    text-align: center;
+}
+
+#Nacionalidad, #Estado-Civil{
+    width: 50%;
+    height: 40px;
+    /*centra el texto en combobox*/
+    text-indent: 45%;
+}
+
+label{
+    font-size: 25px;
+}
+
+.searchbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
